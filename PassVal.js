@@ -7,20 +7,20 @@ var validate=function(/*does anything go here?*/ )
 	var firstPass=document.getElementById("passOne");
 	var secondPass=document.getElementById("passTwo");
 	
-	//alert(secondPass.length);
-	//console.log(firstPass.value);
-	if(secondPass.value.length < 8)
+	
+	
+	if(firstPass.value==secondPass.value && secondPass.value.length>=8 && firstPass.value.length>=8)
+	{
+		alert("You did it! Hooray! Have a happy retriever.");
+		
+	}
+	else if (firstPass.value==secondPass.value &&(firstPass.value.length<8||secondPass.value.length<8))
 	{
 		alert("Password must be at least 8 characters.");
 	}
-	
-	if(firstPass==secondPass)
+	else if(firstPass.value!=secondPass.value)
 	{
-		alert("Congratulations");
-	}
-	else
-	{
-		alert("You're an idiot");
+		alert("Passwords do not match.");
 	}
 	
 }
