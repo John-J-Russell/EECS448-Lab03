@@ -1,0 +1,32 @@
+p.whiteLetters
+{
+	color: rgb(0,0,0);
+	font-size: 1.2em;
+	font-family: Georgia, Serif;
+	text-shadow: 0px 1px rgb(255,255,255);
+}
+p.Header
+{
+	color: #000000;
+	font-size: 1.2em;
+	font-family: Georgia, Serif;
+}
+a
+{
+	background-color: #99ccff;
+	color:  #000099;
+}
+a:hover
+{
+	background-color:  #000099;
+	color: #99ccff;
+}
+
+body
+{
+	background-image: url(Fencing.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: rgb(202,204,203);
+}
