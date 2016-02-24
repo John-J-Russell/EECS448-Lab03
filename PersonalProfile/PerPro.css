@@ -12,12 +12,15 @@ p.Header
 	font-family: "Times New Roman", Serif;
 	position: relative;
 	left: 20px;
+	display:inline;
+	text-decoration:underline;
 }
 p.subHeader
 {
 	color:#000;
 	font-size: 1.8em;
 	font-family: "Times New Roman", Serif;
+	
 }
 a
 {
@@ -37,5 +40,6 @@ body
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-color: rgb(202,204,203);
-	background-attachment: scroll;
+	background-attachment: fixed;
+	background-position: center center;
 }
