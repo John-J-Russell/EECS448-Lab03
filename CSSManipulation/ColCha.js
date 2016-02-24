@@ -32,7 +32,7 @@ var apply=function()
 	}
 }
 
-//This function taken from StackOverflow user "curran" in question thread "How do I write a RGB color value in JavaScript"
+//This function taken from StackOverflow user "curran" in question thread "How do I write a RGB color value in JavaScript".
 //question thread created by user "Ashley"
 //Takes variables and returns an rgb string
 function rgb(r, g, b)
