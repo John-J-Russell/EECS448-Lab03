@@ -2,7 +2,7 @@ body
 {
 	background-color: rgb(202,204,203);
 	background-image: url(mirageIso.jpg);
-	background-size: 100%;
+	background-size: 50%;
 	background-repeat: no-repeat;
 	background-color: rgb(221,140,85);
 	background-attachment: fixed;
@@ -21,8 +21,9 @@ p.header
 }
 a
 {
-	background-color:#99ccff;
+	
 	color: #000099;
+	
 }
 a:hover
 {
